@@ -1,5 +1,11 @@
 {
   "extends": [
-    "config:base"
-  ]
+    "config:base",
+    "docker:enableMajor"
+  ],
+  "packageRules": [{
+    "updateTypes": ["minor", "patch", "pin", "digest"],
+    "automerge": true
+  }],
+  "requiredStatusChecks": null
 }
