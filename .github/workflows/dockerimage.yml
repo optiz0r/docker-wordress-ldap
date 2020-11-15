@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - master
+    paths:
+      - 'Dockerfile'
+      - '.github/workflow/**'
 
 env:
   IMAGE_NAME: wordpress-ldap
