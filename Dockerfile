@@ -1,4 +1,4 @@
-FROM wordpress:6.0.3-php7.4-apache
+FROM wordpress:6.1.0-php7.4-apache
 
 RUN set -x \
 	&& apt-get update \
