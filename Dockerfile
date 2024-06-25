@@ -1,4 +1,4 @@
-FROM wordpress:6.5.4-php8.2-apache
+FROM wordpress:6.5.5-php8.2-apache
 
 RUN set -x \
 	&& apt-get update \
